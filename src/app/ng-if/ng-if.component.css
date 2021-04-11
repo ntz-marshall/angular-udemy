@@ -1,0 +1,32 @@
+body {
+    height: 850px;
+    background-color: rgb(233, 164, 216);
+    padding: 50px;
+}
+
+mat-card {
+    width: 85%;
+    margin: auto;
+    padding: 40px;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+input, mat-checkbox {
+    padding: 10px;
+}
+mat-radio-button {
+    margin: 20px;
+}
+
+.batata {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+mat-progress-bar {
+    width: 50%;
+}
