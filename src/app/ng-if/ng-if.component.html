@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <mat-card>
+        <mat-card-title>Select</mat-card-title>
+        <mat-card-content>
+            <section>
+                <p>Select the fields you need:</p>
+                <section>
+                    <mat-checkbox name="showName">Name</mat-checkbox>
+                    <mat-checkbox name="showAge">Age</mat-checkbox>
+                    <mat-checkbox name="showPhone">Phone</mat-checkbox>
+                    <mat-checkbox name="showAddress">Address</mat-checkbox>
+                </section>
+            </section>
+            <br><br>
+            <section>
+                <mat-form-field>
+                    <input matInput placeholder="Name">
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Age" type="number">
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Phone" type="number">
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Address">
+                </mat-form-field>
+            </section>
+        </mat-card-content>
+        <mat-card-footer>
+            <cite>God save the Queen!</cite>
+        </mat-card-footer>
+    </mat-card>
+</body>
+</html>
